@@ -1,7 +1,7 @@
 class prob3
 {
     public static void main(String args[])
-    {   //for all lines, erase the zeros and type actual lengths
+    {   //for all lines of code, erase the zeros and type actual lengths of each side
 
         //side one
             int side1=000;
