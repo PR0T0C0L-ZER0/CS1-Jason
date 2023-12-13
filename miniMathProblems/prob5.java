@@ -4,15 +4,17 @@ class prob5
     public static void main(String args[])
     {
         //discount
-        double discount=0.00;
+        float discount=0.00f;
 
         //price
-        double price=0.00;
+        float price=0.00f;
 
         //discounted price
-        double discountPrice=(price-(price*discount));
+        float discountPrice=(price-(price*discount));
 
+        System.out.format("%.2f", discountPrice);
+        
         //final price
-        System.out.println("The final discounted price is " + discountPrice);
+        System.out.println("The final discounted price is " + (Math.round(discountPrice)));
     }
 }
