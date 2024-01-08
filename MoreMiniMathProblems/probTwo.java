@@ -6,6 +6,6 @@ class probTwo
         int num=4;
 
 
-        System.out.println(num+" cubed then halved is "+((num*num*num)/2));
+        System.out.println(num+" squared then halved is "+((num*num)/2));
     }
 }
